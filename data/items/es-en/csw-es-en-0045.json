@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0045",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Spanish ML. English possessive 's is a late bridge system morpheme (per taxonomy.md's resolution of C9); its presence inside the Spanish-framed NP is a T1 violation. Licensed form uses the Spanish possessive construction 'el piso de Luis'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vi el piso de Luis esta manana.",
+  "violating": "Vi Luis's piso esta manana.",
+  "system_morpheme_class": "late_bridge"
+}

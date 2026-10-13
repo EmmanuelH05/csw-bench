@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0125",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the EL-sourced possessive with its ML-sourced counterpart, the only grammatical option agreeing with 'carro'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "repair",
+  "violating": "Necesito my carro hoy.",
+  "gold_repair": "Necesito mi carro hoy.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

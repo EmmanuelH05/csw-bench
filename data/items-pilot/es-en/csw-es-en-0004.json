@@ -1,0 +1,25 @@
+{
+  "id": "csw-es-en-0004",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "The prompt establishes a Spanish frame ('Ayer compré'). A licensed continuation keeps the object NP's determiner Spanish-sourced; the violating continuation imports the English determiner into that same frame.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ayer compré",
+  "licensed_continuations": [
+    "las revistas para la clase"
+  ],
+  "violating_continuations": [
+    "the revistas para la clase"
+  ],
+  "system_morpheme_class": "early"
+}

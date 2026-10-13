@@ -1,0 +1,21 @@
+{
+  "id": "csw-es-en-0075",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Spanish ML frame ('Ella quiere'). Licensed continuation uses the Spanish possessive 'su'; violating continuation imports English 'her' as an early system morpheme inside the Spanish-framed NP.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella quiere",
+  "licensed_continuations": [
+    "su computadora nueva"
+  ],
+  "violating_continuations": [
+    "her computadora nueva"
+  ],
+  "system_morpheme_class": "early"
+}

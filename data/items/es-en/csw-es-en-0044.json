@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0044",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Spanish ML. Possessive determiners are early system morphemes under the 4-M test. English 'your' inside a Spanish-framed NP is a T1 violation; licensed form uses Spanish 'tu'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Necesito tu perro nuevo.",
+  "violating": "Necesito your perro nuevo.",
+  "system_morpheme_class": "early"
+}

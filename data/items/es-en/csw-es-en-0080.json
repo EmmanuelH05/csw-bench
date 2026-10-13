@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0080",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Spanish ML frame from 'devolvi'. Licensed continuation keeps the object NP's determiner ML-sourced; violating continuation imports the EL determiner into the same frame.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Devolvi",
+  "licensed_continuations": [
+    "las escuelas para la clase"
+  ],
+  "violating_continuations": [
+    "the escuelas para la clase"
+  ],
+  "system_morpheme_class": "early"
+}

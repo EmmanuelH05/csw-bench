@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0126",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Minimal repair replaces the EL-sourced bridge preposition 'of' with the ML-sourced 'de'; the rest of the sentence is untouched.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Perdi el documento of Juan ayer.",
+  "gold_repair": "Perdi el documento de Juan ayer.",
+  "alternate_repairs": [],
+  "violation_span": [
+    3,
+    4
+  ]
+}

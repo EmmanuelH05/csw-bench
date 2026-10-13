@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0063",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Spanish ML frame ('Ella busca'). Licensed continuation uses the Spanish possessive 'mi'; violating continuation imports English 'my' as an early system morpheme inside the Spanish-framed NP.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella busca",
+  "licensed_continuations": [
+    "mi carro nuevo"
+  ],
+  "violating_continuations": [
+    "my carro nuevo"
+  ],
+  "system_morpheme_class": "early"
+}

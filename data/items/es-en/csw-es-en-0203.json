@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0203",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "Licensed continuation is a complete EL island ('the long document'). Violating continuation has the Spanish article 'el' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Guarde",
+  "licensed_continuations": [
+    "the long document"
+  ],
+  "violating_continuations": [
+    "the el long document"
+  ]
+}

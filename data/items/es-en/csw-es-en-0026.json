@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0026",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "ML = Spanish. No subject pronoun is expressed (licensed by Spanish's null-subject grammar) and the object determiner is Spanish-sourced; the bare EL verb 'park' is a congruence failure local to that one word, not a change of frame. (Revision 2: dropped 'yo' from the utterance so null-subject evidence is actually available, and dropped the earlier SVO-order claim, which English shares and is not discriminating.)",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Park el carro todos los días en la calle.",
+  "required_evidence": [
+    "no subject pronoun is expressed, licensed by spanish's null-subject grammar",
+    "the object determiner 'el' is spanish-sourced, agreeing with 'carro'"
+  ]
+}

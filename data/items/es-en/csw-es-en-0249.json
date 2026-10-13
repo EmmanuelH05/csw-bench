@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0249",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed mixed NP). Both recorded rather than picking one arbitrarily.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "repair",
+  "violating": "Vi the el red car ayer.",
+  "gold_repair": "Vi the red car ayer.",
+  "alternate_repairs": [
+    "Vi el red car ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0210",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "Licensed continuation is a complete EL island ('the small dog'). Violating continuation has the Spanish article 'el' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Compre",
+  "licensed_continuations": [
+    "the small dog"
+  ],
+  "violating_continuations": [
+    "the el small dog"
+  ]
+}

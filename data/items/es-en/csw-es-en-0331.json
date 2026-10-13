@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0331",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('printeo'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Todos los dias yo",
+  "licensed_continuations": [
+    "printeo el documento"
+  ],
+  "violating_continuations": [
+    "print el documento"
+  ]
+}

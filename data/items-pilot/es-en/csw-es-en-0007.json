@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0007",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "ML = Spanish. Verb morphology (compré) and the null subject are Spanish-only properties; only the single determiner 'the' is EL-sourced, which is what T1 predicts rather than a wholesale language switch. (Revision 2: dropped the earlier adverb-PP-order evidence, since 'yesterday at the store' has the same order in English and is not discriminating.)",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Compré the libros ayer en la tienda.",
+  "required_evidence": [
+    "the verb 'compre' carries spanish 1sg preterite morphology",
+    "no subject pronoun appears, licensed by spanish null-subject grammar"
+  ],
+  "system_morpheme_class": "early"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0283",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "'google' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'va a' frame; 'googlear' realizes it via integration, the bare 'google' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Va a googlear la direccion.",
+  "violating": "Va a google la direccion."
+}

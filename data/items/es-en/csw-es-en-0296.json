@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0296",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "'spam' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'voy a' frame; 'spamear' realizes it via integration, the bare 'spam' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Voy a spamear el chat.",
+  "violating": "Voy a spam el chat."
+}

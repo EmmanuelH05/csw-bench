@@ -1,0 +1,25 @@
+{
+  "id": "csw-es-en-0024",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish 1sg present morphology ('texteo'); violating continuation leaves it bare. NOTE: the blind review's completion for this prompt ('...check my email antes de salir') is a genuine, unresolved disagreement about whether that completion is this item's violation type or a different, arguably-licensed clause-level switch -- logged in provenance.review_disagreement, not force-resolved, and deliberately left as the pilot's one open disagreement rather than patched away.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ],
+    "review_disagreement": "Independent blind reviewer completed the prompt as 'Todos los dias yo check my email antes de salir.' Unresolved whether 'check my email' is a bare EL verb phrase (this item's intended T5 violation, requiring Spanish inflection) or a full clause-level switch to English (a different, arguably licensed phenomenon). Not force-resolved; logged as genuine disagreement per the project's provenance rules."
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Todos los días yo",
+  "licensed_continuations": [
+    "texteo a mis amigos"
+  ],
+  "violating_continuations": [
+    "text a mis amigos"
+  ]
+}

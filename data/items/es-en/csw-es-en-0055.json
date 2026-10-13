@@ -1,0 +1,16 @@
+{
+  "id": "csw-es-en-0055",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Spanish ML (verb 'vendi', null subject). The determiner 'the' is an early system morpheme sourced from the EL, attached to the ML-sourced noun 'escuela'. Licensed form uses the ML article 'la'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vendi la escuela esta manana.",
+  "violating": "Vendi the escuela esta manana.",
+  "system_morpheme_class": "early"
+}

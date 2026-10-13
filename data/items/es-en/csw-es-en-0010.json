@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0010",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the EL-sourced possessive with its ML-sourced counterpart. 'Nuestra' is the only grammatical 1pl possessive agreeing with feminine singular 'ayuda', so no competing repair exists.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Necesito our ayuda hoy.",
+  "gold_repair": "Necesito nuestra ayuda hoy.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

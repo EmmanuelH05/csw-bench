@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0022",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'print' is an EL content morpheme; 'printeó' morphologically integrates it with the required Spanish inflection, the bare form does not. 'Ayer' forces the preterite reading, so there's no tense-choice ambiguity in the gold form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Ella printeó el documento ayer.",
+  "violating": "Ella print el documento ayer."
+}

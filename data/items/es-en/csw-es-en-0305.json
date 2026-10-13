@@ -1,0 +1,18 @@
+{
+  "id": "csw-es-en-0305",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "'tag' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'necesito' frame; 'taguear' realizes it via integration, the bare 'tag' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Necesito taguear la foto.",
+  "violating": "Necesito tag la foto."
+}

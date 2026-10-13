@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0076",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Spanish ML frame from 'vendi'. Licensed continuation keeps the object NP's determiner ML-sourced; violating continuation imports the EL determiner into the same frame.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Vendi",
+  "licensed_continuations": [
+    "las casas para la clase"
+  ],
+  "violating_continuations": [
+    "the casas para la clase"
+  ],
+  "system_morpheme_class": "early"
+}

@@ -1,0 +1,51 @@
+MIT License
+
+Copyright (c) 2026 Manny Hernandez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON DATA — THIS REPOSITORY IS DUAL LICENSED.
+
+The MIT license above covers CODE ONLY.
+
+Benchmark ITEMS are licensed separately, per item, according to the source they
+derive from. Every item carries a `license` field recording its terms.
+
+In particular, items derived from the Bangor Miami Corpus (TalkBank/BilingBank) are
+licensed CC BY-NC-SA 3.0, per TalkBank's access-page terms for that corpus. Note: the
+corpus's own depositor-authored documentation separately states GPL v3, and the two
+public TalkBank pages have not been reconciled with each other (see docs/corpora.md §1).
+This project complies with the union of both readings' obligations rather than picking
+one, which in practice means:
+
+  - NonCommercial. Those items may not be used in commercial products.
+  - ShareAlike / no relicensing. Adaptations must carry an equivalent obligation.
+  - Attribution. Cite Deuchar, M., & Parafita Couto, M. (2011). The Bangor Miami
+    Corpus. TalkBank. doi:10.21415/T5J01D
+
+Whether a model fine-tuned on these items constitutes a GPL "derivative work" is a
+separate, unresolved question this project has not chased down (see docs/corpora.md §1).
+If your use case turns on that question, verify it independently.
+
+If you need MIT-only material, filter items by their `license` field. Do not
+assume the MIT grant above extends to any item.
+
+See docs/corpora.md for the full licensing analysis.

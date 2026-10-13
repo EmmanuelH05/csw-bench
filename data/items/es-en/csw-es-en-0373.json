@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0373",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'necesito + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "repair",
+  "violating": "Necesito email el reporte.",
+  "gold_repair": "Necesito emailear el reporte.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

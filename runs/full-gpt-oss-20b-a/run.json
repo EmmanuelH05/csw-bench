@@ -1,0 +1,25 @@
+{
+  "config": {
+    "provider_family": "ollama",
+    "provider_host": "http://localhost:11434",
+    "model": "gpt-oss:20b",
+    "template_id": "a",
+    "seed": 42,
+    "minimality_threshold": 0.7,
+    "zero_retention": true,
+    "temperature": 0.0,
+    "max_tokens": 8192
+  },
+  "item_set_hash": "baf85c444ea741fd812f8f09eeafe9048db617b7383025c5b353a7c66fab069c",
+  "prices": null,
+  "accounting": {
+    "billed_input_tokens": 29598,
+    "billed_output_tokens": 346559,
+    "cached_input_tokens": 5768,
+    "cached_output_tokens": 87035,
+    "provider_calls": 339,
+    "cache_hits": 63,
+    "provider_errors": 77,
+    "cost_usd": null
+  }
+}

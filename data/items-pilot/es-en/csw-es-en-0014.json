@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0014",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "Licensed continuation is a complete EL island ('the big house'). Violating continuation has Spanish 'el' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Vio",
+  "licensed_continuations": [
+    "the big house"
+  ],
+  "violating_continuations": [
+    "the el big house"
+  ]
+}

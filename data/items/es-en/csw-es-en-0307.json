@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0307",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "'check' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'va a' frame; 'chequear' realizes it via integration, the bare 'check' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Va a chequear el correo.",
+  "violating": "Va a check el correo."
+}

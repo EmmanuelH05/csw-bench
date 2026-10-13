@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0339",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('deletea'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella siempre",
+  "licensed_continuations": [
+    "deletea el mensaje"
+  ],
+  "violating_continuations": [
+    "delete el mensaje"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0173",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "'the heavy suitcase' is a complete, internally well-formed EL island under English grammar. The Spanish article 'la' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Limpie the heavy suitcase de nuevo.",
+  "violating": "Limpie the la heavy suitcase de nuevo."
+}

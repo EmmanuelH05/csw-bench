@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0027",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "ML = Spanish, on Spanish-sourced function words independent of the bare-verb violation itself. (Revision 2: dropped the earlier adverb-PP-order claim, which English shares and is not discriminating.)",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Ella print el documento ayer en la oficina.",
+  "required_evidence": [
+    "the object determiner 'el' is spanish-sourced",
+    "'en la oficina' has a spanish-sourced preposition and article"
+  ]
+}

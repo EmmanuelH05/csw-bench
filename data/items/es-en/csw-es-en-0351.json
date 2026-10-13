@@ -1,0 +1,18 @@
+{
+  "id": "csw-es-en-0351",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "ML = Spanish. No subject pronoun is expressed (licensed by Spanish's null-subject grammar) and 'en el trabajo' is a Spanish-sourced preposition and article; the bare EL verb 'check' is a congruence failure local to that one word, not a change of frame. Evidence is drawn from the adjunct PP rather than the verb's own object, since some objects here (e.g. 'un rato', 'a Juan') aren't article-headed.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "ml_identification",
+  "utterance": "Check el correo todos los dias en el trabajo.",
+  "required_evidence": [
+    "no subject pronoun is expressed, licensed by spanish's null-subject grammar",
+    "'en el trabajo' has a spanish-sourced preposition and article"
+  ]
+}

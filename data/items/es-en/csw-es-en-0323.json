@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0323",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('taipeo'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Cada manana yo",
+  "licensed_continuations": [
+    "taipeo el reporte"
+  ],
+  "violating_continuations": [
+    "type el reporte"
+  ]
+}

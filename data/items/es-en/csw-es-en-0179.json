@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0179",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "'the small dog' is a complete, internally well-formed EL island under English grammar. The Spanish article 'el' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Compre the small dog esta manana.",
+  "violating": "Compre the el small dog esta manana."
+}

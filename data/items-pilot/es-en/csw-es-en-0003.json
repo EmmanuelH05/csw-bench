@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0003",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Spanish ML. Possessive determiners are early system morphemes under the 4-M test just as articles are. English 'my' inside a Spanish-framed NP is a T1 violation; licensed form uses the Spanish possessive 'mi', which has no competing valid alternative here (unlike a demonstrative, which would).",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Necesito mi computadora nueva.",
+  "violating": "Necesito my computadora nueva.",
+  "system_morpheme_class": "early"
+}

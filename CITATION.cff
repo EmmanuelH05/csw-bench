@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "csw-bench: a Matrix Language Frame benchmark for intrasentential code-switching"
+message: "If you use this benchmark, please cite it and record the item-set hash you evaluated against."
+type: dataset
+authors:
+  - given-names: Manny
+    family-names: Hernandez
+    email: eahernandez1@ucla.edu
+    affiliation: University of California, Los Angeles
+repository-code: "https://github.com/yungmanny/csw-bench"
+license: MIT
+version: 1.0.0
+date-released: "2026-09-11"
+keywords:
+  - code-switching
+  - Matrix Language Frame
+  - bilingualism
+  - language model evaluation
+  - computational linguistics

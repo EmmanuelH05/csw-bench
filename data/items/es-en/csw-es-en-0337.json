@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0337",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('posteo'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Todos los dias yo",
+  "licensed_continuations": [
+    "posteo la foto"
+  ],
+  "violating_continuations": [
+    "post la foto"
+  ]
+}

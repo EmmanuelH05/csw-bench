@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0020",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "Same double-article ambiguity as csw-es-en-0019: deleting either article yields a well-formed sentence, so both are recorded.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Leyó the el whole magazine anoche.",
+  "gold_repair": "Leyó the whole magazine anoche.",
+  "alternate_repairs": [
+    "Leyó el whole magazine anoche."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "csw-es-en-0025",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish 3sg present morphology ('clickea'); violating continuation leaves it bare. 'Cliquea' is a documented spelling variant of the same integrated form and is recorded as a second licensed answer rather than scored wrong.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella siempre",
+  "licensed_continuations": [
+    "clickea el botón equivocado",
+    "cliquea el botón equivocado"
+  ],
+  "violating_continuations": [
+    "click el botón equivocado"
+  ]
+}

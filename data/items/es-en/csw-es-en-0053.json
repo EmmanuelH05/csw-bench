@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0053",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Spanish ML. English possessive 's is a late bridge system morpheme (per taxonomy.md's resolution of C9); its presence inside the Spanish-framed NP is a T1 violation. Licensed form uses the Spanish possessive construction 'la bicicleta de Juan'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vi la bicicleta de Juan hoy.",
+  "violating": "Vi Juan's bicicleta hoy.",
+  "system_morpheme_class": "late_bridge"
+}

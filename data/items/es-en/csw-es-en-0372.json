@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0372",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'tiene que + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Tiene que text a Juan.",
+  "gold_repair": "Tiene que textear a Juan.",
+  "alternate_repairs": [],
+  "violation_span": [
+    2,
+    3
+  ]
+}

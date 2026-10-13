@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Cached model responses. Large, regenerable, and may contain provider metadata.
+# Run *results* are committed; raw response cache is not.
+runs/**/cache/
+# Runbook and watchdog logs. Everything they contain is regenerable from the committed
+# run directories (csw-bench report / table, the scripts) or is transient.
+runs/logs/
+
+# Corpus material under licenses that forbid redistribution. Provenance records
+# and citations are committed; the raw source text is not.
+data/corpora/restricted/
+
+# OS
+.DS_Store

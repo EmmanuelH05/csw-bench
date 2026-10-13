@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0195",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "Licensed continuation is a complete EL island ('the green umbrella'). Violating continuation has the Spanish article 'el' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Busque",
+  "licensed_continuations": [
+    "the green umbrella"
+  ],
+  "violating_continuations": [
+    "the el green umbrella"
+  ]
+}

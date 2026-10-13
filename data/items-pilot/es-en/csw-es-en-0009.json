@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0009",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Minimal repair restores the ML-sourced determiner without touching any other material, since the violation is exactly the single EL-sourced determiner. No competing repair exists: 'los' is the only grammatical determiner for masculine plural 'libros'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Compré the libros ayer.",
+  "gold_repair": "Compré los libros ayer.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

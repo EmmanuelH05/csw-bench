@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0111",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "ML = Spanish. Verb morphology ('devolvi') and the null subject are Spanish-only properties; only the single determiner 'the' is EL-sourced, which is what T1 predicts rather than a wholesale language switch.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "ml_identification",
+  "utterance": "Devolvi the escuela de nuevo en la tienda.",
+  "required_evidence": [
+    "the verb 'devolvi' carries spanish 1sg preterite morphology",
+    "no subject pronoun appears, licensed by spanish null-subject grammar"
+  ],
+  "system_morpheme_class": "early"
+}

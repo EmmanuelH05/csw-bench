@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0018",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "ML = Spanish, on evidence independent of the island violation: verb morphology and Spanish-sourced function words elsewhere in the clause.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Vio the el big house ayer en la calle.",
+  "required_evidence": [
+    "the verb 'vio' carries spanish 3sg preterite morphology",
+    "'en la calle' has a spanish-sourced preposition and article"
+  ]
+}

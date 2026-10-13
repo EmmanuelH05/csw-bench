@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0011",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "'the book' is a complete, internally well-formed EL island under English grammar. The Spanish article 'el' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent, the reverse direction from T1.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Me dio the book ayer.",
+  "violating": "Me dio the el book ayer."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0188",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "Licensed continuation is a complete EL island ('the old book'). Violating continuation has the Spanish article 'el' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Perdi",
+  "licensed_continuations": [
+    "the old book"
+  ],
+  "violating_continuations": [
+    "the el old book"
+  ]
+}

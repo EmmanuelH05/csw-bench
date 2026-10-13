@@ -1,0 +1,18 @@
+{
+  "id": "csw-es-en-0304",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "'post' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'tiene que' frame; 'postear' realizes it via integration, the bare 'post' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Tiene que postear la foto.",
+  "violating": "Tiene que post la foto."
+}

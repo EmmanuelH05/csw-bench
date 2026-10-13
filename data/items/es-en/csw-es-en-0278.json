@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0278",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed mixed NP). Both recorded rather than picking one arbitrarily.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "repair",
+  "violating": "Limpie the la funny movie ayer.",
+  "gold_repair": "Limpie the funny movie ayer.",
+  "alternate_repairs": [
+    "Limpie la funny movie ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

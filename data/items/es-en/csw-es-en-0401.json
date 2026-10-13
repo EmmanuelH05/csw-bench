@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0401",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'vamos a + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ],
+    "review_disagreement": "Independent blind reviewer repaired to 'Vamos a scanear el recibo.' -- an attested alternate integration spelling alongside the prefixed 'escanear', not a different construction. Added as alternate_repairs."
+  },
+  "task_type": "repair",
+  "violating": "Vamos a scan el recibo.",
+  "gold_repair": "Vamos a escanear el recibo.",
+  "alternate_repairs": [
+    "Vamos a scanear el recibo."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

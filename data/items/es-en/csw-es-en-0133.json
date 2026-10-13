@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0133",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Minimal repair restores the ML-sourced determiner, the only EL-sourced element in the sentence. No competing repair exists for this gender/number combination.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "repair",
+  "violating": "Limpie the edificios ayer.",
+  "gold_repair": "Limpie los edificios ayer.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

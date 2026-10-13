@@ -1,0 +1,18 @@
+{
+  "id": "csw-es-en-0224",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "ML = Spanish. The clause frame (verb morphology, the Spanish-sourced PP) is Spanish; the island's internal breakage does not change which language supplies the frame. Evidence is independent of the intrusion itself, avoiding the circularity flagged in build_pilot_items.py's revision 2.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "ml_identification",
+  "utterance": "Devolvio the la fast bike en el trabajo.",
+  "required_evidence": [
+    "the verb 'devolvio' carries spanish 3sg preterite morphology",
+    "'en el trabajo' has a spanish-sourced preposition and article"
+  ]
+}

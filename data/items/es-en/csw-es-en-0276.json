@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0276",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed mixed NP). Both recorded rather than picking one arbitrarily.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "repair",
+  "violating": "Vendi the el tall building ayer.",
+  "gold_repair": "Vendi the tall building ayer.",
+  "alternate_repairs": [
+    "Vendi el tall building ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

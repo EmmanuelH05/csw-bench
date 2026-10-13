@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0130",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Minimal repair restores the ML-sourced determiner, the only EL-sourced element in the sentence. No competing repair exists for this gender/number combination.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Lleve the reloj ayer.",
+  "gold_repair": "Lleve el reloj ayer.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

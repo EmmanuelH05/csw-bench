@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0171",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "'the small radio' is a complete, internally well-formed EL island under English grammar. The Spanish article 'el' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vendi the small radio este fin de semana.",
+  "violating": "Vendi the el small radio este fin de semana."
+}

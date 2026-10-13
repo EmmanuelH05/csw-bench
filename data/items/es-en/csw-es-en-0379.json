@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0379",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'necesito + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ],
+    "review_disagreement": "Independent blind reviewer repaired to 'Necesito checkear el correo.' -- an attested alternate integration spelling (English-orthography stem plus -ear, alongside the qu-respelled 'chequear'), not a different construction. Added as alternate_repairs."
+  },
+  "task_type": "repair",
+  "violating": "Necesito check el correo.",
+  "gold_repair": "Necesito chequear el correo.",
+  "alternate_repairs": [
+    "Necesito checkear el correo."
+  ],
+  "violation_span": [
+    1,
+    2
+  ]
+}

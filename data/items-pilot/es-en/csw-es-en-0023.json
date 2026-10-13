@@ -1,0 +1,19 @@
+{
+  "id": "csw-es-en-0023",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'chat' is an EL content morpheme; 'chatear' morphologically integrates it, the bare infinitival-position form does not carry the Spanish infinitive marking the frame requires.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vamos a chatear un rato.",
+  "violating": "Vamos a chat un rato."
+}

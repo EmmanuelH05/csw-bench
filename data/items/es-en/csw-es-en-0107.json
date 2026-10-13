@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0107",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "ML = Spanish. Verb morphology ('vendi') and the null subject are Spanish-only properties; only the single determiner 'the' is EL-sourced, which is what T1 predicts rather than a wholesale language switch.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Vendi the casa esta manana en la tienda.",
+  "required_evidence": [
+    "the verb 'vendi' carries spanish 1sg preterite morphology",
+    "no subject pronoun appears, licensed by spanish null-subject grammar"
+  ],
+  "system_morpheme_class": "early"
+}

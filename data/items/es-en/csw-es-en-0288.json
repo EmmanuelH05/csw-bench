@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0288",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'fax' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'quiere' frame; 'faxear' realizes it via integration, the bare 'fax' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Quiere faxear el documento.",
+  "violating": "Quiere fax el documento."
+}

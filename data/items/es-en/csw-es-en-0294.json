@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0294",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'download' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'quiere' frame; 'downloadear' realizes it via integration, the bare 'download' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Quiere downloadear el archivo.",
+  "violating": "Quiere download el archivo."
+}

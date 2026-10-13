@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0285",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'tag' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'vamos a' frame; 'taguear' realizes it via integration, the bare 'tag' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Vamos a taguear la foto.",
+  "violating": "Vamos a tag la foto."
+}

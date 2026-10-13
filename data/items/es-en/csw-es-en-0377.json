@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0377",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'vamos a + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ],
+    "review_disagreement": "Independent blind reviewer repaired to 'Vamos a taggear la foto.' -- an attested alternate integration spelling of the same loanword (double-g preserving the English /g/ before the -ear suffix), not a different construction. Added as alternate_repairs rather than treated as an error, matching the precedent already set for cliquea/clickea in the pilot set."
+  },
+  "task_type": "repair",
+  "violating": "Vamos a tag la foto.",
+  "gold_repair": "Vamos a taguear la foto.",
+  "alternate_repairs": [
+    "Vamos a taggear la foto."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

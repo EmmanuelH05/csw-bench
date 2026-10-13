@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0281",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "'email' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'necesito' frame; 'emailear' realizes it via integration, the bare 'email' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Necesito emailear el reporte.",
+  "violating": "Necesito email el reporte."
+}

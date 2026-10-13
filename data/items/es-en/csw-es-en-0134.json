@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0134",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the EL-sourced possessive with its ML-sourced counterpart, the only grammatical option agreeing with 'piso'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Necesito your piso hoy.",
+  "gold_repair": "Necesito tu piso hoy.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

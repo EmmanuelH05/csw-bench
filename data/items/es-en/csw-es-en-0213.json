@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0213",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "Licensed continuation is a complete EL island ('the fast bike'). Violating continuation has the Spanish article 'la' intruding into that island.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Encontre",
+  "licensed_continuations": [
+    "the fast bike"
+  ],
+  "violating_continuations": [
+    "the la fast bike"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "csw-es-en-0088",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Spanish ML frame from 'lleve'. Licensed continuation keeps the object NP's determiner ML-sourced; violating continuation imports the EL determiner into the same frame.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Lleve",
+  "licensed_continuations": [
+    "las camaras para la clase"
+  ],
+  "violating_continuations": [
+    "the camaras para la clase"
+  ],
+  "system_morpheme_class": "early"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "csw-es-en-0039",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "hard",
+  "justification": "Spanish ML (verb 'devolvi', null subject). The determiner 'the' is an early system morpheme sourced from the EL, attached to the ML-sourced noun 'reloj'. Licensed form uses the ML article 'el'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Devolvi el reloj de nuevo.",
+  "violating": "Devolvi the reloj de nuevo.",
+  "system_morpheme_class": "early"
+}

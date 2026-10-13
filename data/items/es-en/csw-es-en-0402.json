@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0402",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'tiene que + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ],
+    "review_disagreement": "Independent blind reviewer repaired to 'Tiene que typear el reporte.' -- an attested alternate integration spelling alongside the phonetic-respelled 'taipear', not a different construction. Added as alternate_repairs."
+  },
+  "task_type": "repair",
+  "violating": "Tiene que type el reporte.",
+  "gold_repair": "Tiene que taipear el reporte.",
+  "alternate_repairs": [
+    "Tiene que typear el reporte."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

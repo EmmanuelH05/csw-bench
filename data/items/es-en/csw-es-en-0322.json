@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0322",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('escaneo'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Todos los dias yo",
+  "licensed_continuations": [
+    "escaneo el recibo"
+  ],
+  "violating_continuations": [
+    "scan el recibo"
+  ]
+}

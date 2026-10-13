@@ -1,0 +1,26 @@
+{
+  "id": "csw-es-en-0019",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed ML-determiner-plus-EL-noun mixed NP, itself a well-formed construction). Both are recorded rather than picking one arbitrarily as the sole correct answer.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Compró the el gift ayer.",
+  "gold_repair": "Compró the gift ayer.",
+  "alternate_repairs": [
+    "Compró el gift ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

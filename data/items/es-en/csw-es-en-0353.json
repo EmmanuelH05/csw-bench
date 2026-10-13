@@ -1,0 +1,21 @@
+{
+  "id": "csw-es-en-0353",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "ML = Spanish. No subject pronoun is expressed (licensed by Spanish's null-subject grammar) and 'en la oficina' is a Spanish-sourced preposition and article; the bare EL verb 'scan' is a congruence failure local to that one word, not a change of frame. Evidence is drawn from the adjunct PP rather than the verb's own object, since some objects here (e.g. 'un rato', 'a Juan') aren't article-headed.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Scan el recibo todos los dias en la oficina.",
+  "required_evidence": [
+    "no subject pronoun is expressed, licensed by spanish's null-subject grammar",
+    "'en la oficina' has a spanish-sourced preposition and article"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0300",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "medium",
+  "justification": "'text' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'quiere' frame; 'textear' realizes it via integration, the bare 'text' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Quiere textear a Juan.",
+  "violating": "Quiere text a Juan."
+}

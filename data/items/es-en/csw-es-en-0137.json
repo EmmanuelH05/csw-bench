@@ -1,0 +1,20 @@
+{
+  "id": "csw-es-en-0137",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Minimal repair replaces the EL-sourced possessive with its ML-sourced counterpart, the only grammatical option agreeing with 'computadora'.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "repair",
+  "violating": "Necesito my computadora hoy.",
+  "gold_repair": "Necesito mi computadora hoy.",
+  "alternate_repairs": [],
+  "violation_span": [
+    1,
+    2
+  ]
+}

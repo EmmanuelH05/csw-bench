@@ -1,0 +1,25 @@
+{
+  "config": {
+    "provider_family": "ollama",
+    "provider_host": "http://localhost:11434",
+    "model": "deepseek-r1:32b",
+    "template_id": "a",
+    "seed": 42,
+    "minimality_threshold": 0.7,
+    "zero_retention": true,
+    "temperature": 0.0,
+    "max_tokens": 8192
+  },
+  "item_set_hash": "baf85c444ea741fd812f8f09eeafe9048db617b7383025c5b353a7c66fab069c",
+  "prices": null,
+  "accounting": {
+    "billed_input_tokens": 1700,
+    "billed_output_tokens": 324,
+    "cached_input_tokens": 14079,
+    "cached_output_tokens": 2705,
+    "provider_calls": 131,
+    "cache_hits": 271,
+    "provider_errors": 100,
+    "cost_usd": null
+  }
+}

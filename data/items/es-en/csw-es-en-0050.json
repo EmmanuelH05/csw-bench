@@ -1,0 +1,16 @@
+{
+  "id": "csw-es-en-0050",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "medium",
+  "justification": "Spanish ML. English 'of' is a late bridge system morpheme (taxonomy.md's C21, 'el libro of Juan' -- the widening's one unambiguous win); its presence inside the Spanish-framed NP is a T1 violation.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Perdi la casa de Rosa rapido.",
+  "violating": "Perdi la casa of Rosa rapido.",
+  "system_morpheme_class": "late_bridge"
+}

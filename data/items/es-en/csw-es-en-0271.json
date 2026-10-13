@@ -1,0 +1,25 @@
+{
+  "id": "csw-es-en-0271",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed mixed NP). Both recorded rather than picking one arbitrarily.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Revise the la big house ayer.",
+  "gold_repair": "Revise the big house ayer.",
+  "alternate_repairs": [
+    "Revise la big house ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0253",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "The double-article construction admits two independently grammatical minimal repairs: delete the intruding ML article (restoring the EL island) or delete the EL article (leaving a licensed mixed NP). Both recorded rather than picking one arbitrarily.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "repair",
+  "violating": "Guarde the la nice laptop ayer.",
+  "gold_repair": "Guarde the nice laptop ayer.",
+  "alternate_repairs": [
+    "Guarde la nice laptop ayer."
+  ],
+  "violation_span": [
+    2,
+    3
+  ]
+}

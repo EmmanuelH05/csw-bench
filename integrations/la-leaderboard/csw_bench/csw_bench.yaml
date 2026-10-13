@@ -1,0 +1,7 @@
+group: csw_bench
+group_alias: csw_bench
+task:
+  - csw_bench_judgment
+  - csw_bench_repair
+metadata:
+  version: 1.0

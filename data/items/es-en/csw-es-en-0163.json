@@ -1,0 +1,18 @@
+{
+  "id": "csw-es-en-0163",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "'the tall building' is a complete, internally well-formed EL island under English grammar. The Spanish article 'el' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Traje the tall building de nuevo.",
+  "violating": "Traje the el tall building de nuevo."
+}

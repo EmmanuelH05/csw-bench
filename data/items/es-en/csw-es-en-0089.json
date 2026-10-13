@@ -1,0 +1,21 @@
+{
+  "id": "csw-es-en-0089",
+  "matrix_language": "es",
+  "primary_violation": "T1",
+  "difficulty": "easy",
+  "justification": "Spanish ML frame ('Ella necesita'). Licensed continuation uses the Spanish possessive 'nuestra'; violating continuation imports English 'our' as an early system morpheme inside the Spanish-framed NP.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "System Morpheme Principle"
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella necesita",
+  "licensed_continuations": [
+    "nuestra cartera nueva"
+  ],
+  "violating_continuations": [
+    "our cartera nueva"
+  ],
+  "system_morpheme_class": "early"
+}

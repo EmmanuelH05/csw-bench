@@ -1,0 +1,24 @@
+{
+  "id": "csw-es-en-0030",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "Minimal repair replaces the bare EL verb with its morphologically integrated infinitive form. The 'vamos a + infinitive' frame forces the infinitive shape uniquely; no tense ambiguity.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "repair",
+  "violating": "Vamos a chat un rato.",
+  "gold_repair": "Vamos a chatear un rato.",
+  "alternate_repairs": [],
+  "violation_span": [
+    2,
+    3
+  ]
+}

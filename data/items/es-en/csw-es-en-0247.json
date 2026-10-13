@@ -1,0 +1,21 @@
+{
+  "id": "csw-es-en-0247",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "easy",
+  "justification": "ML = Spanish. The clause frame (verb morphology, the Spanish-sourced PP) is Spanish; the island's internal breakage does not change which language supplies the frame. Evidence is independent of the intrusion itself, avoiding the circularity flagged in build_pilot_items.py's revision 2.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Limpio the la funny movie en el trabajo.",
+  "required_evidence": [
+    "the verb 'limpio' carries spanish 3sg preterite morphology",
+    "'en el trabajo' has a spanish-sourced preposition and article"
+  ]
+}

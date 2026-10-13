@@ -1,0 +1,29 @@
+# Minimal repair of a violating utterance. The prompt is csw-bench's template "a"
+# verbatim; scoring is csw_bench.scoring.score_repair ported to utils.py (gold or any
+# alternate repair, compared as normalized token sequences, with a minimality check at
+# the frozen 0.7 threshold). repair_score is points/2 with a floor of 0.
+task: csw_bench_repair
+dataset_path: yungmanny/csw-bench
+dataset_name: repair
+output_type: generate_until
+test_split: test
+fewshot_split: null
+num_fewshot: 0
+doc_to_text: "The following code-switched utterance contains exactly one grammatical error in how the two languages combine:\n\n\"{{violating}}\"\n\nRewrite it with the smallest change that fixes the error. Reply with the corrected utterance only."
+doc_to_target: "{{gold_repair}}"
+process_results: !function utils.process_results_repair
+generation_kwargs:
+  until:
+    - "\n"
+  max_gen_toks: 64
+  do_sample: false
+  temperature: 0.0
+metric_list:
+  - metric: repair_score
+    aggregation: mean
+    higher_is_better: true
+  - metric: repair_minimal
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,22 @@
+{
+  "id": "csw-es-en-0017",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "hard",
+  "justification": "ML = Spanish, on evidence independent of the island violation itself: verb morphology and Spanish-sourced function words elsewhere in the clause.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-2026-08-16",
+      "second-review-2026-08-16"
+    ]
+  },
+  "task_type": "ml_identification",
+  "utterance": "Leyó the el whole magazine durante el viaje.",
+  "required_evidence": [
+    "the verb 'leyo' carries spanish 3sg preterite morphology",
+    "'durante el viaje' has a spanish-sourced preposition and article"
+  ]
+}

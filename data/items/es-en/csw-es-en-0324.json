@@ -1,0 +1,23 @@
+{
+  "id": "csw-es-en-0324",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "hard",
+  "justification": "Licensed continuation integrates the EL verb root with obligatory Spanish present morphology ('swipea'); violating continuation leaves it bare.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis",
+    "reviewed_by": [
+      "blind-ai-review-sample-2026-08-24"
+    ]
+  },
+  "task_type": "constrained_continuation",
+  "prompt": "Ella siempre",
+  "licensed_continuations": [
+    "swipea la tarjeta"
+  ],
+  "violating_continuations": [
+    "swipe la tarjeta"
+  ]
+}

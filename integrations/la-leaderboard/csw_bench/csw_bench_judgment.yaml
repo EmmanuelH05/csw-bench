@@ -1,0 +1,25 @@
+# Minimal-pair acceptability, BLiMP style: the model's log-likelihood of the licensed
+# member against the violating member, no prompt. Floor 0.5. This is the discriminative
+# counterpart of csw-bench's generative grammaticality_judgment task (which asks a chat
+# model to copy the acceptable sentence); the two protocols are not score-comparable.
+task: csw_bench_judgment
+dataset_path: yungmanny/csw-bench
+dataset_name: grammaticality_judgment
+output_type: multiple_choice
+test_split: test
+fewshot_split: null
+num_fewshot: 0
+doc_to_text: ""
+doc_to_target: 0
+doc_to_choice: "{{[licensed, violating]}}"
+should_decontaminate: true
+doc_to_decontamination_query: "{{licensed}} {{violating}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

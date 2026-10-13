@@ -1,0 +1,56 @@
+[project]
+name = "csw-bench"
+version = "1.0.0"
+description = "An evaluation benchmark measuring whether LLMs handle intrasentential code-switching consistently with the Matrix Language Frame model."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Manny Hernandez", email = "eahernandez1@ucla.edu" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.9",
+]
+
+[project.optional-dependencies]
+# Model runner. Kept optional so `matriz` can depend on the loader/scorer
+# without pulling in the provider SDK it does not use.
+runners = [
+    "ollama>=0.4",
+]
+
+[project.scripts]
+csw-bench = "csw_bench.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+    "ruff>=0.8",
+    "mypy>=1.13",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+warn_unreachable = true
+# The two item builders are excluded, not merely unchecked: the item set is frozen and
+# hash-pinned, so they must never run again, and annotating 1,700 lines of code whose
+# only correct future is to sit still would be churn against a released artifact. Every
+# script that can still legitimately run is checked -- see the `mypy` line in CI.
+exclude = "scripts/build_(pilot|phase4)_items\\.py"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=csw_bench --cov-report=term-missing"

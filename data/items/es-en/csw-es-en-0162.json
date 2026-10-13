@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0162",
+  "matrix_language": "es",
+  "primary_violation": "T3",
+  "difficulty": "medium",
+  "justification": "'the fast bike' is a complete, internally well-formed EL island under English grammar. The Spanish article 'la' intruding inside it breaks the island's internal integrity -- T3, not T1, because the violation is ML material inside an EL-framed constituent.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "EL Island Trigger Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Devolvi the fast bike otra vez.",
+  "violating": "Devolvi the la fast bike otra vez."
+}

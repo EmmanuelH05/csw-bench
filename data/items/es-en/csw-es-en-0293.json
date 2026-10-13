@@ -1,0 +1,15 @@
+{
+  "id": "csw-es-en-0293",
+  "matrix_language": "es",
+  "primary_violation": "T5",
+  "difficulty": "easy",
+  "justification": "'forward' is an EL content morpheme (assigns the agent/theme role). Spanish obligatorily supplies infinitival morphology in the 'necesito' frame; 'forwardear' realizes it via integration, the bare 'forward' does not -- T5 fires on the bare form.",
+  "provenance": {
+    "source": "constructed",
+    "license": "MIT",
+    "derivation": "Blocking Hypothesis"
+  },
+  "task_type": "grammaticality_judgment",
+  "licensed": "Necesito forwardear el correo.",
+  "violating": "Necesito forward el correo."
+}
